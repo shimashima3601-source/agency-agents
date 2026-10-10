@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "personal-no-extra-cost",
+  "aliases": ["personal-free"],
+  "language": "ja",
+  "primary": "codex-chatgpt-subscription",
+  "secondary": ["claude-free-manual", "gemini-existing-plan-manual"],
+  "default_team": "core",
+  "policy": "POLICY.md",
+  "services": "services.json",
+  "teams": "teams.json",
+  "i18n": "i18n/ja.json",
+  "deny_llm_api": true,
+  "deny_extra_charges": true,
+  "deny_credit_purchases": true,
+  "deny_paid_credit_use": true,
+  "unknown_service": "stop",
+  "quota_exhausted": "checkpoint-and-stop",
+  "max_attempts_per_task": 3,
+  "execution": "sequential-by-default"
+}

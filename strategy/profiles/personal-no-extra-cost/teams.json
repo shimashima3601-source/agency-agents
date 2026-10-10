@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "teams": {
+    "core": {"description": "汎用調査・設計・レビュー。必要な役割だけ順次適用。", "agents": ["agents-orchestrator", "project-manager-senior", "engineering-software-architect", "engineering-code-reviewer", "research-synthesist", "testing-reality-checker"]},
+    "app-development": {"description": "既存Agentによるアプリ開発。Android実行環境と実機検証は別途確認。", "agents": ["agents-orchestrator", "project-manager-senior", "engineering-software-architect", "engineering-mobile-app-builder", "engineering-frontend-developer", "engineering-code-reviewer", "testing-evidence-collector", "testing-reality-checker"]},
+    "japan-equities-research": {"description": "既存Agentによる日本株調査の基礎。日本市場・IR・需給・テクニカル専門Agentは未実装。", "agents": ["finance-investment-researcher", "finance-financial-analyst", "research-synthesist", "support-executive-summary-generator"]}
+  }
+}

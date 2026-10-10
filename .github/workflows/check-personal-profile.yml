@@ -1,0 +1,25 @@
+name: Check Personal Profile
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate profile and Japanese catalogue
+        run: |
+          python3 scripts/personal/validate.py
+          python3 scripts/personal/catalog_ja.py --check
+      - name: Test local generation, refusal, and ownership
+        run: python3 -m unittest discover -s scripts/personal/tests -v
