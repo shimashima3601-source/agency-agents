@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "default": "stop",
+  "actions": {
+    "codex.subscription": {"decision": "allow", "cost": "included", "requirements": ["chatgpt-auth", "included-quota", "no-paid-credits", "no-auto-reload"]},
+    "chatgpt.included": {"decision": "allow", "cost": "included", "requirements": ["current-plan-feature", "included-quota", "no-paid-credits"]},
+    "claude.free.manual": {"decision": "manual", "cost": "included", "requirements": ["user-operated-app-or-web", "free-quota"]},
+    "gemini.existing.manual": {"decision": "manual", "cost": "included", "requirements": ["user-operated-app-or-web", "current-plan-feature"]},
+    "github.repository": {"decision": "allow", "cost": "included", "requirements": ["repository-access-only", "no-paid-addon"]},
+    "public.documents": {"decision": "allow", "cost": "public-zero", "requirements": ["public-access", "no-paid-account-or-api"]},
+    "local.open-source": {"decision": "allow", "cost": "public-zero", "requirements": ["no-paid-backend", "inspect-install-and-test-hooks"]},
+    "llm.api": {"decision": "stop", "cost": "unknown", "requirements": ["prohibited-even-with-free-quota"]},
+    "credits.purchase": {"decision": "stop", "cost": "additional", "requirements": ["prohibited"]},
+    "credits.consume": {"decision": "stop", "cost": "additional", "requirements": ["prohibited"]},
+    "saas.paid": {"decision": "stop", "cost": "additional", "requirements": ["prohibited"]},
+    "cloud.billing": {"decision": "stop", "cost": "additional", "requirements": ["prohibited"]},
+    "github.paid-addon": {"decision": "stop", "cost": "additional", "requirements": ["prohibited"]}
+  }
+}

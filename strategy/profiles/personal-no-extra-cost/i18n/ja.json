@@ -1,0 +1,1140 @@
+{
+  "schema_version": 1,
+  "agents": {
+    "academic-anthropologist": {
+      "name": "人類学",
+      "description": "人類学の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "academic-geographer": {
+      "name": "地理学",
+      "description": "地理学の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "academic-historian": {
+      "name": "歴史学",
+      "description": "歴史学の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "academic-narratologist": {
+      "name": "物語研究",
+      "description": "物語研究の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "academic-psychologist": {
+      "name": "心理学",
+      "description": "心理学の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "academic-statistician": {
+      "name": "統計学",
+      "description": "統計学の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "design-brand-guardian": {
+      "name": "ブランド管理",
+      "description": "ブランド管理の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "design-image-prompt-engineer": {
+      "name": "画像生成プロンプトエンジニア",
+      "description": "画像生成プロンプトエンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "design-inclusive-visuals-specialist": {
+      "name": "多様性に配慮した視覚表現専門",
+      "description": "多様性に配慮した視覚表現専門の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "design-persona-walkthrough": {
+      "name": "ペルソナによる利用検証",
+      "description": "ペルソナによる利用検証の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "design-ui-designer": {
+      "name": "UI設計",
+      "description": "UI設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "design-ui-finish-gate-reviewer": {
+      "name": "UI完成度の最終レビュー",
+      "description": "UI完成度の最終レビューの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "design-ux-architect": {
+      "name": "UX設計",
+      "description": "UX設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "design-ux-researcher": {
+      "name": "UX調査",
+      "description": "UX調査の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "design-visual-storyteller": {
+      "name": "視覚的なストーリー表現",
+      "description": "視覚的なストーリー表現の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "design-whimsy-injector": {
+      "name": "遊び心の演出",
+      "description": "遊び心の演出の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-ai-data-remediation-engineer": {
+      "name": "AIデータ修復エンジニア",
+      "description": "AIデータ修復エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-ai-engineer": {
+      "name": "AIエンジニア",
+      "description": "AIエンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-api-platform-engineer": {
+      "name": "API基盤エンジニア",
+      "description": "API基盤エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-ats-validator-architect": {
+      "name": "採用システム適合検証設計",
+      "description": "採用システム適合検証設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-autonomous-optimization-architect": {
+      "name": "自律最適化設計",
+      "description": "自律最適化設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-backend-architect": {
+      "name": "バックエンド設計",
+      "description": "バックエンド設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-china-network-engineer": {
+      "name": "中国ネットワークエンジニア",
+      "description": "中国ネットワークエンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-cms-developer": {
+      "name": "CMS開発",
+      "description": "CMS開発の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-code-reviewer": {
+      "name": "コードレビュー",
+      "description": "正しさ、保守性、セキュリティ、性能をレビュー。"
+    },
+    "engineering-codebase-onboarding-engineer": {
+      "name": "コード理解・導入エンジニア",
+      "description": "コード理解・導入エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-data-engineer": {
+      "name": "データエンジニア",
+      "description": "データエンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-data-visualization-engineer": {
+      "name": "データ可視化エンジニア",
+      "description": "データ可視化エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-database-optimizer": {
+      "name": "データベース最適化",
+      "description": "データベース最適化の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-database-reliability-engineer": {
+      "name": "データベース信頼性エンジニア",
+      "description": "データベース信頼性エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-desktop-app-engineer": {
+      "name": "デスクトップアプリ開発",
+      "description": "デスクトップアプリ開発の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-developer-tooling-engineer": {
+      "name": "開発ツールエンジニア",
+      "description": "開発ツールエンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-devops-automator": {
+      "name": "DevOps自動化",
+      "description": "DevOps自動化の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-drupal-performance": {
+      "name": "Drupal性能エンジニア",
+      "description": "Drupal性能エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-drupal-shopping-cart": {
+      "name": "Drupalショッピングカートエンジニア",
+      "description": "Drupalショッピングカートエンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-email-intelligence-engineer": {
+      "name": "メール情報分析エンジニア",
+      "description": "メール情報分析エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-embedded-firmware-engineer": {
+      "name": "組込みファームウェアエンジニア",
+      "description": "組込みファームウェアエンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-feishu-integration-developer": {
+      "name": "Feishu連携開発",
+      "description": "Feishu連携開発の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-filament-optimization-specialist": {
+      "name": "Filament最適化専門",
+      "description": "Filament最適化専門の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-finops-engineer": {
+      "name": "クラウド費用の最適化",
+      "description": "クラウド費用の最適化の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-frontend-developer": {
+      "name": "フロントエンド開発",
+      "description": "フロントエンド開発の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-gaussdb-expert": {
+      "name": "GaussDB専門エンジニア",
+      "description": "GaussDB専門エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-git-workflow-master": {
+      "name": "Git運用",
+      "description": "Git運用の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-i18n-engineer": {
+      "name": "国際化エンジニア",
+      "description": "国際化エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-identity-access-engineer": {
+      "name": "ID・アクセス制御エンジニア",
+      "description": "ID・アクセス制御エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-incident-response-commander": {
+      "name": "障害対応統括",
+      "description": "障害対応統括の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-iot-fleet-engineer": {
+      "name": "IoT機器群の運用",
+      "description": "IoT機器群の運用の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-it-service-manager": {
+      "name": "ITサービス管理",
+      "description": "ITサービス管理の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-knowledge-graph-engineer": {
+      "name": "ナレッジグラフエンジニア",
+      "description": "ナレッジグラフエンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-llm-post-training-engineer": {
+      "name": "LLM事後学習エンジニア",
+      "description": "LLM事後学習エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-minimal-change-engineer": {
+      "name": "最小変更エンジニア",
+      "description": "最小変更エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-mobile-app-builder": {
+      "name": "モバイルアプリ開発",
+      "description": "Kotlin・Jetpack Composeを含むモバイル開発。Android実機検証は別途準備。"
+    },
+    "engineering-mobile-release-engineer": {
+      "name": "モバイル配布エンジニア",
+      "description": "モバイル配布エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-multi-agent-systems-architect": {
+      "name": "複数Agentシステム設計",
+      "description": "複数Agentシステム設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-network-engineer": {
+      "name": "ネットワークエンジニア",
+      "description": "ネットワークエンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-orgscript-engineer": {
+      "name": "OrgScriptエンジニア",
+      "description": "OrgScriptエンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-payments-billing-engineer": {
+      "name": "決済・請求エンジニア",
+      "description": "決済・請求エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-pdf-engine-architect": {
+      "name": "PDFエンジン設計",
+      "description": "PDFエンジン設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-platform-engineer": {
+      "name": "基盤エンジニア",
+      "description": "基盤エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-privacy-engineer": {
+      "name": "プライバシー保護",
+      "description": "プライバシー保護の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-prompt-engineer": {
+      "name": "プロンプトエンジニア",
+      "description": "プロンプトエンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-rag-pipeline-engineer": {
+      "name": "RAGパイプライン開発",
+      "description": "RAGパイプライン開発の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-rapid-prototyper": {
+      "name": "高速試作",
+      "description": "高速試作の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-realtime-collaboration-engineer": {
+      "name": "リアルタイム共同作業エンジニア",
+      "description": "リアルタイム共同作業エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-rust-refactoring-specialist": {
+      "name": "Rustリファクタリング専門",
+      "description": "Rustリファクタリング専門の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-search-relevance-engineer": {
+      "name": "検索関連性エンジニア",
+      "description": "検索関連性エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-section-508-specialist": {
+      "name": "Section 508アクセシビリティ",
+      "description": "Section 508アクセシビリティの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-senior-developer": {
+      "name": "上級開発",
+      "description": "上級開発の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-servicenow-developer-mentor": {
+      "name": "ServiceNow開発・指導",
+      "description": "ServiceNow開発・指導の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-software-architect": {
+      "name": "ソフトウェア設計",
+      "description": "要件と制約から構造・境界・技術判断を設計。"
+    },
+    "engineering-solidity-smart-contract-engineer": {
+      "name": "Solidityスマートコントラクトエンジニア",
+      "description": "Solidityスマートコントラクトエンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-sre": {
+      "name": "サイト信頼性エンジニア",
+      "description": "サイト信頼性エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-technical-writer": {
+      "name": "技術文書作成",
+      "description": "技術文書作成の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-universal-document-compiler": {
+      "name": "汎用文書コンパイラ",
+      "description": "汎用文書コンパイラの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-uswds-developer": {
+      "name": "USWDS開発",
+      "description": "USWDS開発の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-video-streaming-engineer": {
+      "name": "動画配信エンジニア",
+      "description": "動画配信エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-voice-ai-integration-engineer": {
+      "name": "音声AI連携エンジニア",
+      "description": "音声AI連携エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-webassembly-engineer": {
+      "name": "WebAssemblyエンジニア",
+      "description": "WebAssemblyエンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-wechat-mini-program-developer": {
+      "name": "WeChatミニプログラム開発",
+      "description": "WeChatミニプログラム開発の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-wordpress-performance": {
+      "name": "WordPress性能エンジニア",
+      "description": "WordPress性能エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "engineering-wordpress-shopping-cart": {
+      "name": "WordPressショッピングカートエンジニア",
+      "description": "WordPressショッピングカートエンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "finance-bookkeeper-controller": {
+      "name": "記帳・会計管理",
+      "description": "記帳・会計管理の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "finance-financial-analyst": {
+      "name": "財務分析",
+      "description": "財務モデル、キャッシュフロー、予測、感応度・シナリオ分析。"
+    },
+    "finance-fpa-analyst": {
+      "name": "財務計画・予実分析",
+      "description": "財務計画・予実分析の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "finance-investment-researcher": {
+      "name": "投資リサーチ",
+      "description": "投資仮説、財務・評価・リスク、Bull/Bear Caseを調査。有料データ源は利用しない。"
+    },
+    "finance-tax-strategist": {
+      "name": "税務戦略",
+      "description": "税務戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "blender-addon-engineer": {
+      "name": "Blenderアドオン開発",
+      "description": "Blenderアドオン開発の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "economy-designer": {
+      "name": "ゲーム内経済設計",
+      "description": "ゲーム内経済設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "game-audio-engineer": {
+      "name": "ゲーム音響開発",
+      "description": "ゲーム音響開発の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "game-designer": {
+      "name": "ゲーム設計",
+      "description": "ゲーム設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "godot-gameplay-scripter": {
+      "name": "Godotゲームプレイスクリプト開発",
+      "description": "Godotゲームプレイスクリプト開発の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "godot-multiplayer-engineer": {
+      "name": "Godotマルチプレイヤーエンジニア",
+      "description": "Godotマルチプレイヤーエンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "godot-shader-developer": {
+      "name": "Godotシェーダー開発",
+      "description": "Godotシェーダー開発の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "level-designer": {
+      "name": "ゲームレベル設計",
+      "description": "ゲームレベル設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "narrative-designer": {
+      "name": "ゲームの物語設計",
+      "description": "ゲームの物語設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "roblox-avatar-creator": {
+      "name": "Robloxアバター制作",
+      "description": "Robloxアバター制作の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "roblox-experience-designer": {
+      "name": "Roblox体験設計",
+      "description": "Roblox体験設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "roblox-systems-scripter": {
+      "name": "Robloxシステムスクリプト開発",
+      "description": "Robloxシステムスクリプト開発の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "technical-artist": {
+      "name": "技術アート",
+      "description": "技術アートの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "unity-architect": {
+      "name": "Unity設計",
+      "description": "Unity設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "unity-editor-tool-developer": {
+      "name": "Unityエディタツール開発",
+      "description": "Unityエディタツール開発の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "unity-multiplayer-engineer": {
+      "name": "Unityマルチプレイヤーエンジニア",
+      "description": "Unityマルチプレイヤーエンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "unity-shader-graph-artist": {
+      "name": "Unityシェーダーグラフ制作",
+      "description": "Unityシェーダーグラフ制作の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "unreal-multiplayer-architect": {
+      "name": "Unrealマルチプレイヤー設計",
+      "description": "Unrealマルチプレイヤー設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "unreal-systems-engineer": {
+      "name": "Unrealシステムエンジニア",
+      "description": "Unrealシステムエンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "unreal-technical-artist": {
+      "name": "Unreal技術アート",
+      "description": "Unreal技術アートの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "unreal-world-builder": {
+      "name": "Unrealワールド構築",
+      "description": "Unrealワールド構築の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "gis-3d-scene-developer": {
+      "name": "3D・シーン開発",
+      "description": "3D・シーン開発の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "gis-analyst": {
+      "name": "GIS分析",
+      "description": "GIS分析の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "gis-bim-specialist": {
+      "name": "BIM/GIS専門",
+      "description": "BIM/GIS専門の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "gis-cartography-designer": {
+      "name": "地図表現設計",
+      "description": "地図表現設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "gis-drone-reality-mapping": {
+      "name": "ドローン・現実空間マッピング専門",
+      "description": "ドローン・現実空間マッピング専門の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "gis-geoai-ml-engineer": {
+      "name": "地理AI・機械学習エンジニア",
+      "description": "地理AI・機械学習エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "gis-geoprocessing-specialist": {
+      "name": "地理情報処理専門",
+      "description": "地理情報処理専門の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "gis-qa-engineer": {
+      "name": "GIS品質保証エンジニア",
+      "description": "GIS品質保証エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "gis-solution-engineer": {
+      "name": "GISソリューション設計",
+      "description": "GISソリューション設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "gis-spatial-data-engineer": {
+      "name": "空間データエンジニア",
+      "description": "空間データエンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "gis-spatial-data-scientist": {
+      "name": "空間データサイエンス",
+      "description": "空間データサイエンスの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "gis-technical-consultant": {
+      "name": "技術コンサルティング",
+      "description": "技術コンサルティングの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "gis-web-gis-developer": {
+      "name": "WebGIS開発",
+      "description": "WebGIS開発の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "healthcare-clinical-evidence-agent": {
+      "name": "臨床エビデンス評価",
+      "description": "臨床エビデンス評価の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "healthcare-innovation-strategist": {
+      "name": "医療イノベーション戦略",
+      "description": "医療イノベーション戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "healthcare-sovereign-health-systems-agent": {
+      "name": "国家の医療制度設計",
+      "description": "国家の医療制度設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-aeo-foundations": {
+      "name": "回答エンジン最適化の基盤設計",
+      "description": "回答エンジン最適化の基盤設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-agentic-search-optimizer": {
+      "name": "Agent型検索最適化",
+      "description": "Agent型検索最適化の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-ai-citation-strategist": {
+      "name": "AI引用戦略",
+      "description": "AI引用戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-app-store-optimizer": {
+      "name": "アプリストア最適化",
+      "description": "アプリストア最適化の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-baidu-seo-specialist": {
+      "name": "BaiduSEO専門",
+      "description": "BaiduSEO専門の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-bilibili-content-strategist": {
+      "name": "Bilibiliコンテンツ戦略",
+      "description": "Bilibiliコンテンツ戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-book-co-author": {
+      "name": "書籍共同執筆",
+      "description": "書籍共同執筆の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-carousel-growth-engine": {
+      "name": "カルーセル投稿による成長施策",
+      "description": "投稿画像・カルーセルの生成と配信。元定義のGemini API実行は本profileでは禁止。"
+    },
+    "marketing-china-ecommerce-operator": {
+      "name": "中国EC運営",
+      "description": "中国EC運営の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-china-market-localization-strategist": {
+      "name": "中国市場向けローカライズ戦略",
+      "description": "中国市場向けローカライズ戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-content-creator": {
+      "name": "コンテンツ制作",
+      "description": "コンテンツ制作の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-cross-border-ecommerce": {
+      "name": "越境EC専門",
+      "description": "越境EC専門の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-developer-community-builder": {
+      "name": "開発者コミュニティ構築",
+      "description": "開発者コミュニティ構築の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-douyin-strategist": {
+      "name": "Douyin戦略",
+      "description": "Douyin戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-email-strategist": {
+      "name": "メールマーケティング戦略",
+      "description": "メールマーケティング戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-global-podcast-strategist": {
+      "name": "国際ポッドキャスト戦略",
+      "description": "国際ポッドキャスト戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-growth-hacker": {
+      "name": "成長施策",
+      "description": "成長施策の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-instagram-curator": {
+      "name": "Instagram編集・選定",
+      "description": "Instagram編集・選定の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-kuaishou-strategist": {
+      "name": "Kuaishou戦略",
+      "description": "Kuaishou戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-linkedin-content-creator": {
+      "name": "LinkedInコンテンツ制作",
+      "description": "LinkedInコンテンツ制作の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-livestream-commerce-coach": {
+      "name": "ライブコマース支援",
+      "description": "ライブコマース支援の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-multi-platform-publisher": {
+      "name": "複数プラットフォーム配信",
+      "description": "複数プラットフォーム配信の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-podcast-strategist": {
+      "name": "ポッドキャスト戦略",
+      "description": "ポッドキャスト戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-pr-communications-manager": {
+      "name": "広報・コミュニケーション管理",
+      "description": "広報・コミュニケーション管理の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-private-domain-operator": {
+      "name": "自社顧客コミュニティ運営",
+      "description": "自社顧客コミュニティ運営の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-reddit-community-builder": {
+      "name": "Redditコミュニティ形成",
+      "description": "Redditコミュニティ形成の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-seo-specialist": {
+      "name": "SEO専門",
+      "description": "SEO専門の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-short-video-editing-coach": {
+      "name": "短尺動画編集支援",
+      "description": "短尺動画編集支援の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-social-media-strategist": {
+      "name": "SNS戦略",
+      "description": "SNS戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-tiktok-strategist": {
+      "name": "TikTok戦略",
+      "description": "TikTok戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-twitter-engager": {
+      "name": "Twitter交流促進",
+      "description": "Twitter交流促進の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-video-optimization-specialist": {
+      "name": "動画最適化",
+      "description": "動画最適化の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-wechat-official-account": {
+      "name": "WeChat公式アカウント管理",
+      "description": "WeChat公式アカウント管理の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-weibo-strategist": {
+      "name": "Weibo戦略",
+      "description": "Weibo戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-x-twitter-intelligence-analyst": {
+      "name": "X/Twitter情報分析",
+      "description": "Xの公開情報を分析。元定義の有料Xquik接続は本profileでは禁止。"
+    },
+    "marketing-xiaohongshu-specialist": {
+      "name": "Xiaohongshu専門",
+      "description": "Xiaohongshu専門の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "marketing-zhihu-strategist": {
+      "name": "Zhihu戦略",
+      "description": "Zhihu戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "paid-media-auditor": {
+      "name": "有料広告の監査",
+      "description": "有料広告の監査の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "paid-media-creative-strategist": {
+      "name": "広告クリエイティブ戦略",
+      "description": "広告クリエイティブ戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "paid-media-paid-social-strategist": {
+      "name": "有料SNS広告戦略",
+      "description": "有料SNS広告戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "paid-media-ppc-strategist": {
+      "name": "クリック課金広告戦略",
+      "description": "クリック課金広告戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "paid-media-programmatic-buyer": {
+      "name": "プログラマティック・ディスプレイ広告購入",
+      "description": "プログラマティック・ディスプレイ広告購入の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "paid-media-search-query-analyst": {
+      "name": "検索クエリ分析",
+      "description": "検索クエリ分析の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "paid-media-tracking-specialist": {
+      "name": "計測・効果測定",
+      "description": "計測・効果測定の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "product-behavioral-nudge-engine": {
+      "name": "行動を促す設計",
+      "description": "行動を促す設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "product-dx-engineer": {
+      "name": "開発者体験の改善",
+      "description": "開発者体験の改善の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "product-feedback-synthesizer": {
+      "name": "利用者の意見の統合",
+      "description": "利用者の意見の統合の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "product-manager": {
+      "name": "プロダクト管理",
+      "description": "プロダクト管理の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "product-sprint-prioritizer": {
+      "name": "スプリント優先順位付け",
+      "description": "スプリント優先順位付けの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "product-trend-researcher": {
+      "name": "動向調査",
+      "description": "動向調査の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "project-management-experiment-tracker": {
+      "name": "実験追跡",
+      "description": "実験追跡の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "project-management-jira-workflow-steward": {
+      "name": "Jiraワークフロー管理",
+      "description": "Jiraワークフロー管理の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "project-management-meeting-notes-specialist": {
+      "name": "議事録専門",
+      "description": "議事録専門の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "project-management-project-shepherd": {
+      "name": "プロジェクト進行支援",
+      "description": "プロジェクト進行支援の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "project-management-studio-operations": {
+      "name": "制作組織の運営",
+      "description": "制作組織の運営の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "project-management-studio-producer": {
+      "name": "制作統括",
+      "description": "制作統括の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "project-manager-senior": {
+      "name": "上級プロジェクトマネージャー",
+      "description": "仕様を具体的な作業と受入条件に分解。不要な機能を増やさない。"
+    },
+    "research-synthesist": {
+      "name": "調査結果の統合",
+      "description": "資料の一次情報・証拠の強さ・矛盾を評価し、根拠を統合。"
+    },
+    "sales-account-strategist": {
+      "name": "顧客アカウント戦略",
+      "description": "顧客アカウント戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "sales-coach": {
+      "name": "営業育成",
+      "description": "営業育成の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "sales-deal-strategist": {
+      "name": "商談戦略",
+      "description": "商談戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "sales-discovery-coach": {
+      "name": "営業ヒアリング支援",
+      "description": "営業ヒアリング支援の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "sales-engineer": {
+      "name": "技術営業",
+      "description": "技術営業の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "sales-offer-lead-gen-strategist": {
+      "name": "提案・見込み客獲得戦略",
+      "description": "提案・見込み客獲得戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "sales-outbound-strategist": {
+      "name": "アウトバウンド営業戦略",
+      "description": "アウトバウンド営業戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "sales-pipeline-analyst": {
+      "name": "営業パイプライン分析",
+      "description": "営業パイプライン分析の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "sales-proposal-strategist": {
+      "name": "提案戦略",
+      "description": "提案戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "security-ai-generated-code-auditor": {
+      "name": "AI生成コードセキュリティ監査",
+      "description": "AI生成コードセキュリティ監査の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "security-appsec-engineer": {
+      "name": "アプリケーションセキュリティエンジニア",
+      "description": "アプリケーションセキュリティエンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "security-architect": {
+      "name": "セキュリティ設計",
+      "description": "セキュリティ設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "security-blockchain-security-auditor": {
+      "name": "ブロックチェーンセキュリティ監査",
+      "description": "ブロックチェーンセキュリティ監査の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "security-cloud-security-architect": {
+      "name": "クラウドセキュリティ設計",
+      "description": "クラウドセキュリティ設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "security-compliance-auditor": {
+      "name": "適合性監査",
+      "description": "適合性監査の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "security-incident-responder": {
+      "name": "セキュリティ事故対応",
+      "description": "セキュリティ事故対応の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "security-penetration-tester": {
+      "name": "侵入テスト",
+      "description": "侵入テストの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "security-secrets-credential-engineer": {
+      "name": "秘密情報・認証情報の衛生管理エンジニア",
+      "description": "秘密情報・認証情報の衛生管理エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "security-senior-secops": {
+      "name": "上級セキュリティ運用",
+      "description": "上級セキュリティ運用の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "security-threat-detection-engineer": {
+      "name": "脅威検知エンジニア",
+      "description": "脅威検知エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "security-threat-intelligence-analyst": {
+      "name": "脅威情報分析",
+      "description": "脅威情報分析の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "macos-spatial-metal-engineer": {
+      "name": "macOS空間処理・Metalエンジニア",
+      "description": "macOS空間処理・Metalエンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "terminal-integration-specialist": {
+      "name": "ターミナル連携専門",
+      "description": "ターミナル連携専門の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "visionos-spatial-engineer": {
+      "name": "visionOS空間エンジニア",
+      "description": "visionOS空間エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "xr-cockpit-interaction-specialist": {
+      "name": "XRコックピット操作専門",
+      "description": "XRコックピット操作専門の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "xr-immersive-developer": {
+      "name": "XR没入型開発",
+      "description": "XR没入型開発の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "xr-interface-architect": {
+      "name": "XRインターフェース設計",
+      "description": "XRインターフェース設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "accounts-payable-agent": {
+      "name": "買掛金・支払管理",
+      "description": "買掛金・支払管理の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "agentic-identity-trust": {
+      "name": "AgentのID・信頼管理設計",
+      "description": "AgentのID・信頼管理設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "agents-orchestrator": {
+      "name": "Agent統括",
+      "description": "PM→設計→開発↔QA→統合を調整し、品質ゲートと試行上限を管理。"
+    },
+    "automation-governance-architect": {
+      "name": "自動化のガバナンス設計",
+      "description": "自動化のガバナンス設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "business-strategist": {
+      "name": "事業戦略",
+      "description": "事業戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "change-management-consultant": {
+      "name": "組織変革支援",
+      "description": "組織変革支援の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "chief-financial-officer": {
+      "name": "最高財務責任者",
+      "description": "最高財務責任者の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "corporate-training-designer": {
+      "name": "企業研修設計",
+      "description": "企業研修設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "customer-service": {
+      "name": "顧客対応",
+      "description": "顧客対応の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "customer-success-manager": {
+      "name": "顧客成功支援",
+      "description": "顧客成功支援の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "data-consolidation-agent": {
+      "name": "データ統合Agent",
+      "description": "データ統合Agentの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "data-privacy-officer": {
+      "name": "データプライバシー担当",
+      "description": "データプライバシー担当の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "esg-sustainability-officer": {
+      "name": "ESG・持続可能性担当",
+      "description": "ESG・持続可能性担当の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "government-digital-presales-consultant": {
+      "name": "行政デジタル提案支援",
+      "description": "行政デジタル提案支援の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "grant-writer": {
+      "name": "助成金申請書作成",
+      "description": "助成金申請書作成の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "healthcare-aging-parent-care-companion": {
+      "name": "高齢の親の介護支援",
+      "description": "高齢の親の介護支援の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "healthcare-customer-service": {
+      "name": "医療機関の患者対応",
+      "description": "医療機関の患者対応の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "healthcare-marketing-compliance": {
+      "name": "医療マーケティング適合性専門",
+      "description": "医療マーケティング適合性専門の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "hospitality-guest-services": {
+      "name": "宿泊客対応",
+      "description": "宿泊客対応の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "hr-onboarding": {
+      "name": "人事・入社支援",
+      "description": "人事・入社支援の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "identity-graph-operator": {
+      "name": "IDグラフ運用",
+      "description": "IDグラフ運用の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "language-translator": {
+      "name": "翻訳",
+      "description": "翻訳の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "legal-billing-time-tracking": {
+      "name": "法律業務の請求・時間記録",
+      "description": "法律業務の請求・時間記録の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "legal-client-intake": {
+      "name": "法律相談の初期受付",
+      "description": "法律相談の初期受付の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "legal-document-review": {
+      "name": "法務文書レビュー",
+      "description": "法務文書レビューの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "loan-officer-assistant": {
+      "name": "融資担当支援",
+      "description": "融資担当支援の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "lsp-index-engineer": {
+      "name": "LSP・索引開発",
+      "description": "LSP・索引開発の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "ma-integration-manager": {
+      "name": "M&A統合管理",
+      "description": "M&A統合管理の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "medical-billing-coding-specialist": {
+      "name": "医療請求・診療コード",
+      "description": "医療請求・診療コードの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "operations-manager": {
+      "name": "業務運営管理",
+      "description": "業務運営管理の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "organizational-psychologist": {
+      "name": "組織心理学",
+      "description": "組織心理学の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "personal-growth-mentor": {
+      "name": "個人成長支援",
+      "description": "個人成長支援の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "real-estate-buyer-seller": {
+      "name": "不動産購入・売却支援",
+      "description": "不動産購入・売却支援の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "recruitment-specialist": {
+      "name": "採用支援",
+      "description": "採用支援の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "report-distribution-agent": {
+      "name": "レポート配布Agent",
+      "description": "レポート配布Agentの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "resume-tailor": {
+      "name": "履歴書最適化",
+      "description": "履歴書最適化の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "retail-customer-returns": {
+      "name": "小売の返品対応",
+      "description": "小売の返品対応の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "sales-data-extraction-agent": {
+      "name": "営業データ抽出Agent",
+      "description": "営業データ抽出Agentの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "sales-outreach": {
+      "name": "営業アプローチ",
+      "description": "営業アプローチの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "specialized-chief-of-staff": {
+      "name": "業務統括補佐",
+      "description": "業務統括補佐の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "specialized-civil-engineer": {
+      "name": "土木エンジニア",
+      "description": "土木エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "specialized-codebase-archaeologist": {
+      "name": "既存コードの構造・経緯調査",
+      "description": "既存コードの構造・経緯調査の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "specialized-cultural-intelligence-strategist": {
+      "name": "異文化理解戦略",
+      "description": "異文化理解戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "specialized-developer-advocate": {
+      "name": "開発者向け技術普及",
+      "description": "開発者向け技術普及の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "specialized-document-generator": {
+      "name": "文書作成",
+      "description": "文書作成の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "specialized-fedramp-rmf-compliance": {
+      "name": "FedRAMP・RMF適合性開発",
+      "description": "FedRAMP・RMF適合性開発の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "specialized-focus-music-architect": {
+      "name": "集中用音楽設計",
+      "description": "集中用音楽設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "specialized-french-consulting-market": {
+      "name": "フランスのコンサル市場分析",
+      "description": "フランスのコンサル市場分析の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "specialized-korean-business-navigator": {
+      "name": "韓国ビジネス支援",
+      "description": "韓国ビジネス支援の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "specialized-master-plan-architect": {
+      "name": "全体計画設計",
+      "description": "全体計画設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "specialized-mcp-builder": {
+      "name": "MCP構築",
+      "description": "MCP構築の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "specialized-model-qa": {
+      "name": "モデル品質保証専門",
+      "description": "モデル品質保証専門の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "specialized-pricing-analyst": {
+      "name": "価格分析",
+      "description": "価格分析の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "specialized-salesforce-architect": {
+      "name": "Salesforce設計",
+      "description": "Salesforce設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "specialized-strategy-duel-agent": {
+      "name": "戦略対戦",
+      "description": "戦略対戦の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "specialized-workflow-architect": {
+      "name": "ワークフロー設計",
+      "description": "ワークフロー設計の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "study-abroad-advisor": {
+      "name": "留学相談",
+      "description": "留学相談の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "supply-chain-strategist": {
+      "name": "サプライチェーン戦略",
+      "description": "サプライチェーン戦略の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "zk-steward": {
+      "name": "ゼロ知識証明の運用管理",
+      "description": "ゼロ知識証明の運用管理の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "support-analytics-reporter": {
+      "name": "分析レポート",
+      "description": "分析レポートの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "support-executive-summary-generator": {
+      "name": "要約レポート作成",
+      "description": "要約レポート作成の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "support-finance-tracker": {
+      "name": "財務追跡",
+      "description": "財務追跡の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "support-infrastructure-maintainer": {
+      "name": "インフラ保守",
+      "description": "インフラ保守の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "support-legal-compliance-checker": {
+      "name": "法令適合性検証",
+      "description": "法令適合性検証の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "support-support-responder": {
+      "name": "サポート対応",
+      "description": "サポート対応の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "testing-accessibility-auditor": {
+      "name": "アクセシビリティ監査",
+      "description": "アクセシビリティ監査の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "testing-api-tester": {
+      "name": "APIテスト",
+      "description": "APIテストの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "testing-evidence-collector": {
+      "name": "検証証拠の収集",
+      "description": "再現手順・スクリーンショット・挙動の証拠を収集。検証ツールは別途必要。"
+    },
+    "testing-performance-benchmarker": {
+      "name": "性能ベンチマーク",
+      "description": "性能ベンチマークの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "testing-reality-checker": {
+      "name": "実態・完成度の検証",
+      "description": "完了の主張を実際の成果物・検証証拠と照合。未検証範囲を明示。"
+    },
+    "testing-test-automation-engineer": {
+      "name": "テスト自動化エンジニア",
+      "description": "テスト自動化エンジニアの専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "testing-test-results-analyzer": {
+      "name": "テスト結果分析",
+      "description": "テスト結果分析の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "testing-tool-evaluator": {
+      "name": "ツール評価",
+      "description": "ツール評価の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    },
+    "testing-workflow-optimizer": {
+      "name": "ワークフロー最適化",
+      "description": "ワークフロー最適化の専門領域を担当。具体的な責務・成果物・手順は元定義を参照。"
+    }
+  },
+  "errors": {
+    "unknown_action": "未確認の操作のため停止しました。",
+    "extra_cost": "追加料金の可能性があるため停止しました。",
+    "quota": "利用上限に達しました。進捗を保存し、契約内利用が再開できるまで停止します。",
+    "credentials": "API認証情報の設定を検出しました。値は表示しません。",
+    "cloud_unverified": "Cloud環境での対応を確認できません。元Markdownの役割を順次適用してください。"
+  }
+}
